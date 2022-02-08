@@ -1,0 +1,229 @@
+html {
+    font-size: 62.5%;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Hero Nav */
+
+.hero-container{
+    background-color: #1F2937;
+
+}
+.hero{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+
+.hero-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+
+.hero-nav-img{
+    width: 25px;
+    height: 25px;
+
+}
+.left-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-icon{
+    align-self: center;
+    font-size: 2rem;
+}
+
+.right-links{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+  }
+  
+ul{
+    list-style: none;
+  }
+
+
+
+/* Hero Info  */
+
+.hero-about-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+
+.hero-text-container{
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.hero-intro{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.hero-info{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-img{
+    width: 500px;
+    height:auto;
+}
+
+.hero-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hero-button{
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    border-color: white;
+}
+
+/* Stack Information */
+
+.tech-title-container{
+    margin: 50px;
+}
+.tech-title{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.tech-stack-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+
+
+
+.stack-img{
+    width:200px;
+    height: 200px;
+}  
+
+.text{
+    text-align: center;
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
+/* Quotes */
+
+.quote-section{
+    background-color: #E5E7EB;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author-container{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.author {
+    font-size: 2rem;
+}
+
+
+
+
+/* Contact Section */
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.contact-container{
+    border: 1px solid black;
+    width: 800px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-info{
+    font-size: 1.7rem;
+}
+
+.contact-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-button{
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+
+/* Footer */
+
+.footer-container{
+    background-color: #E5E7EB; 
+}
+
+footer{
+    font-size: 1.5rem;
+    text-align: center;
+}
